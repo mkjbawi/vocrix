@@ -1,16 +1,16 @@
-# vocrix
+# Vocrix
 
-A new Flutter project.
+Fast-paced letter + categories word game.
 
-## Getting Started
+## MVP Rules
+- Players: 2–8
+- Language: English (MVP)
+- Categories (MVP): Name, Animal, City, Country, Food, Object
+- Round: random letter (no repeats in match)
+- Timer options: 20s / 30s / 40s / 60s
+- Scoring:
+  - 1 point per valid category completed in time
+  - +1 bonus to first player to complete all categories correctly
+  - Duplicate rule: fastest valid answer wins the point; later duplicates score 0
+- Validation: local category dictionaries (offline)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
